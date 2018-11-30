@@ -8,7 +8,10 @@ elif op == '-':
     results = num1 - num2
 elif op == '/':
     results = num1 / num2
-else:
+elif op == '*':
     results = num1 * num2
+else:
+    results = 'Invalid Operator'
+
 
 print(results)
